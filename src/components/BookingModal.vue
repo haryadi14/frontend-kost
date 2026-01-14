@@ -83,7 +83,7 @@ export default {
             durasi_bulan: this.form.durasi_bulan
         });
 
-        await axios.post('http://danikos.my.id/api/booking', {
+        await axios.post('https://danikos.my.id/api/booking', {
           id_kamar: this.kamarId,
           tanggal_mulai: this.form.tanggal_mulai,
           durasi_bulan: this.form.durasi_bulan

@@ -131,7 +131,7 @@ const handleDelete = async (id_kos) => {
             <div class="card h-100 shadow-sm border-0 hover-card">
                 
                 <div class="img-wrapper">
-                    <img :src="`http://danikos.my.id/uploads/${kos.foto_utama}`" 
+                    <img :src="`https://danikos.my.id/uploads/${kos.foto_utama}`" 
                          class="card-img-top" 
                          alt="Foto Kos"
                          @error="$event.target.src='https://via.placeholder.com/400x300?text=No+Image'"
