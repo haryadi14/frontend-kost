@@ -62,7 +62,7 @@ const handleValidasi = async (item, aksi) => {
         const result = await Swal.fire({
             title: 'Validasi Pembayaran?',
             text: 'Pastikan dana sudah masuk ke rekening Anda.',
-            imageUrl: `http://localhost:5000/uploads/${item.bukti_bayar}`,
+            imageUrl: `http://danikos.my.id/uploads/${item.bukti_bayar}`,
             imageAlt: 'Bukti Transfer',
             imageHeight: 300,
             showCancelButton: true,

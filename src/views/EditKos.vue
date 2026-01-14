@@ -37,7 +37,7 @@ onMounted(async () => {
         
         // Tampilkan foto lama (Ganti 5000 jika port backend Anda beda)
         if (data.foto_utama) {
-            previewImage.value = `http://localhost:5000/uploads/${data.foto_utama}`
+            previewImage.value = `http://danikos.my.id/uploads/${data.foto_utama}`
         }
     }
 

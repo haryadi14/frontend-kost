@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const Api = axios.create({
     // Arahkan ke Backend Node.js Anda
-    baseURL: 'http://localhost:5000/api', 
+    baseURL: 'http://danikos.my.id/api', 
     headers: {
         'Content-Type': 'application/json'
     }
